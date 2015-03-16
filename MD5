@@ -1,0 +1,14 @@
+23f513c15a0d2db93470cb449bca69f6 *DESCRIPTION
+edeb62c5e241af62163a12db0fcc63e8 *NAMESPACE
+6d6e16bb7f7452c44fc3c6f8f9a22003 *data/datalist
+39cf44e3761d25285ae86ee13637f23f *data/lipdata.rda
+1bd52c48c2670aedd48da20d39086768 *data/lipdbf.rda
+56f69434b1cded8abdc1b628d694672d *data/lipshp.rda
+d43c9a5894587d565d3093251239c4f8 *data/propertydata.spatial.rda
+0a83426ba491bc1e10a48c8b0aa12bd1 *data/respiratorydata.spatial.rda
+9c11705cbbcbb1aee98aebc3b726a58b *man/CARBayesdata-package.Rd
+148658f4eb86085f0f14b230f7a11473 *man/lipdata.Rd
+bf2d308a62fb56d68e9b2d8737f7c91e *man/lipdbf.Rd
+11605bb8f85adb98b434f38cf37ac7df *man/lipshp.Rd
+d9c2b3352e60e02e59f311c2358963a5 *man/propertydata.spatial.Rd
+998ebb9b0537276863c8654c68b1f64d *man/respiratorydata.spatial.Rd
