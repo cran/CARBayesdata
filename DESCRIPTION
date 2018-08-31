@@ -2,16 +2,16 @@ Package: CARBayesdata
 Type: Package
 Title: Data Used in the Vignettes Accompanying the CARBayes and
         CARBayesST Packages
-Version: 2.0
-Date: 2016-06-10
+Version: 2.1
+Date: 2018-08-31
 Author: Duncan Lee
 Maintainer: Duncan Lee <Duncan.Lee@glasgow.ac.uk>
-Description: Spatio-temporal data from Scotland used in the vignettes accompanying the CARBayes (spatial modelling) and CARBayesST (spatio-temporal modelling) packages. For the CARBayes vignette the data include the Scottish lip cancer data and property price and respiratory hospitalisation data from the Greater Glasgow and Clyde health board. For the CARBayesST vignette the data include spatio-temporal data on property sales and respiratory hospitalisation and air pollution from the Greater Glasgow and Clyde health board. 
+Description: Spatio-temporal data from Scotland used in the vignettes accompanying the CARBayes (spatial modelling) and CARBayesST (spatio-temporal modelling) packages. All data except for the Scottish lip cancer data relate to the set of 271 Intermediate Geographies (IG, but also known as Intermediate Zones (IZ))  that make up the 2001 definition of the  Greater Glasgow and Clyde health board. 
 License: GPL (>= 2)
 Depends: R (>= 2.10.0)
 Imports: sp, shapefiles
 LazyLoad: yes
 NeedsCompilation: no
-Packaged: 2016-06-08 05:08:29 UTC; duncanlee
+Packaged: 2018-08-31 08:42:02 UTC; duncanlee
 Repository: CRAN
-Date/Publication: 2016-06-08 15:40:26
+Date/Publication: 2018-08-31 14:00:07 UTC

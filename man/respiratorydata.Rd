@@ -22,14 +22,14 @@ used in a worked example in the vignette accompanying the CARBayes package.
   \describe{
     \item{\code{IG}}{The unique identifier for each IG.}
     \item{\code{observed}}{The observed numbers of hospitalisations due to 
-    respiratory disease in each IG.}
+    respiratory disease.}
     \item{\code{expected}}{The expected numbers of hospitalisations due to 
-    respiratory disease in each IG computed using indirect standardisation from 
+    respiratory disease computed using indirect standardisation from 
     Scotland-wide respiratory hospitalisation rates.}
-    \item{\code{incomedep}}{The percentage of people in each IG who are 
-    defined to be income deprived.}
-    \item{\code{SMR}}{The standardised morbidity ratio (SMR, observed / expected) 
-    for respiratory hospitalisation in each IG.}
+    \item{\code{incomedep}}{The percentage of people who are defined to be income 
+    deprived.}
+    \item{\code{SMR}}{The standardised morbidity ratio (SMR = observed / expected) 
+    for respiratory hospitalisation.}
   }
 }
 

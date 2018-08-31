@@ -19,15 +19,13 @@ worked example in the vignette accompanying the CARBayes package.
 \format{
   A data.frame object containing 56 observations on the following 5 variables.
   \describe{
-    \item{\code{observed}}{The number of recorded lip cancer cases in each 
-    district.}
-    \item{\code{expected}}{The expected number of lip cancer cases in each 
-    district computed using indirect standardisation using Scotland-wide disease 
-    rates.}
-    \item{\code{pcaff}}{The percetage of the workforce in each district 
-    employed in agriculture, fishing and forestry.}
-    \item{\code{latitude}}{The latitude of the centroid of each district.}
-    \item{\code{longitude}}{The longitude of the centroid of each district.}
+    \item{\code{observed}}{The number of recorded lip cancer cases.}
+    \item{\code{expected}}{The expected number of lip cancer cases computed using 
+    indirect standardisation using Scotland-wide disease rates.}
+    \item{\code{pcaff}}{The percetage of the workforce employed in agriculture, 
+    fishing and forestry.}
+    \item{\code{latitude}}{The latitude of the centroid.}
+    \item{\code{longitude}}{The longitude of the centroid.}
   }
 }
 

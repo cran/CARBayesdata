@@ -23,8 +23,8 @@
     \describe{
         \item{\code{IG}}{The unique identifier for each IG.}
         \item{\code{year}}{The year the data relate to.}
-        \item{\code{sales}}{The number of property sales in each IG and year.}
-        \item{\code{stock}}{The number of properties in each IG and year.}
+        \item{\code{sales}}{The number of property sales.}
+        \item{\code{stock}}{The number of properties.}
     }
 }
 
