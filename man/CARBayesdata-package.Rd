@@ -21,8 +21,8 @@ definition of the  Greater Glasgow and Clyde health board.
 \tabular{ll}{
 Package: \tab CARBayesdata\cr
 Type: \tab Package\cr
-Version: \tab 2.1\cr
-Date: \tab 2018-08-31\cr
+Version: \tab 2.2\cr
+Date: \tab 2020-08-24\cr
 License: \tab GPL (>= 2)\cr
 }
 }
