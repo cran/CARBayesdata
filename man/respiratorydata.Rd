@@ -10,17 +10,18 @@ board
 
 \description{
 A data.frame object containing purely spatial data on hospital admisssions due to 
-respiratory disease in 2010 for the 134 Intermediate Geographies (IG) to the north 
+respiratory disease in 2010 for the 134 Intermediate Zones (IZ)  to the north 
 of the river Clyde in the Greater Glasgow and Clyde health board. These data  are 
 used in a worked example in the vignette accompanying the CARBayes package.
 }
 
 
 \usage{data(respiratorydata)}
+
 \format{
   A data.frame object containing 134 observations on the following 5 variables.
   \describe{
-    \item{\code{IG}}{The unique identifier for each IG.}
+    \item{\code{IZ}}{The unique identifier for each IZ.}
     \item{\code{observed}}{The observed numbers of hospitalisations due to 
     respiratory disease.}
     \item{\code{expected}}{The expected numbers of hospitalisations due to 

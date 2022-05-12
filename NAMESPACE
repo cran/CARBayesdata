@@ -1,6 +1,5 @@
 exportPattern(".")
 
 import(
-    sp,
-    shapefiles
+    sf
     )

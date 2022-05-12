@@ -8,8 +8,8 @@
 
 \description{
     A data.frame object containing purely spatial data on median property prices 
-    in 2008 and possible covariates for 270 of the 271 Intermediate Geographies 
-    (IG) that make up the Greater Glasgow and Clyde health board in Scotland. 
+    in 2008 and possible covariates for 270 of the 271 Intermediate Zones (IZ) 
+    that make up the Greater Glasgow and Clyde health board in Scotland. 
     Data for one IZ have been removed due to it having an extreme outlying 
     observation. These data are used in a worked example in the vignette 
     accompanying the CARBayes package.
@@ -21,7 +21,7 @@
 \format{
     A data.frame object containing 270 observations on the following 7 variables.
     \describe{
-        \item{\code{IG}}{The unique identifier for each IG.}
+        \item{\code{IZ}}{The unique identifier for each IZ.}
         \item{\code{price}}{Median property price.}
         \item{\code{crime}}{The crime rate (number of crimes per 10,000 people).}
         \item{\code{rooms}}{The median number of rooms in a property.}

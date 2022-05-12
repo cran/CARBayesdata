@@ -10,7 +10,7 @@ Greater Glasgow and Clyde health board between 2007 and 2011.}
 \description{
     A data.frame object containing spatio-temporal data on respiratory 
     hospitalisations, air pollution concentrations and socio-economic deprivation
-    covariates for the 271 Intermediate Geographies (IG) that make up the Greater 
+    covariates for the 271 Intermediate Zones (IZ) that make up the Greater 
     Glasgow and Clyde health board in Scotland. Yearly data are available between
     2007 and 2011 inclusive. These data are used in a worked example in the 
     vignette accompanying the CARBayesST package.
@@ -22,7 +22,7 @@ Greater Glasgow and Clyde health board between 2007 and 2011.}
 \format{
     A data.frame object containing 1355 observations on the following 7 variables.
     \describe{
-        \item{\code{IG}}{The unique identifier for each IG.}
+        \item{\code{IZ}}{The unique identifier for each IZ.}
         \item{\code{year}}{The year the data relate to.}
         \item{\code{observed}}{The observed numbers of hospitalisations due to 
         respiratory disease.}

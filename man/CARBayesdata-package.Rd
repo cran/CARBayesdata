@@ -10,9 +10,8 @@
 
 \description{
 Spatio-temporal data from Scotland used in the vignettes accompanying the CARBayes 
-(spatial modelling) and CARBayesST (spatio-temporal modelling) packages. All 
-data except for the Scottish lip cancer data relate to the set of 271 Intermediate 
-Geographies (IG, but also known as Intermediate Zones (IZ))  that make up the 2001 
+(spatial modelling) and CARBayesST (spatio-temporal modelling) packages. Most of 
+the data relate to the set of 271 Intermediate Zones (IZ)  that make up the 2001 
 definition of the  Greater Glasgow and Clyde health board. 
 }
 
@@ -21,8 +20,8 @@ definition of the  Greater Glasgow and Clyde health board.
 \tabular{ll}{
 Package: \tab CARBayesdata\cr
 Type: \tab Package\cr
-Version: \tab 2.2\cr
-Date: \tab 2020-08-24\cr
+Version: \tab 3.0\cr
+Date: \tab 2022-05-11\cr
 License: \tab GPL (>= 2)\cr
 }
 }
@@ -31,16 +30,10 @@ License: \tab GPL (>= 2)\cr
 \author{Maintainer: Duncan Lee <Duncan.Lee@glasgow.ac.uk>}
 
 \examples{
-library(shapefiles)
-library(sp)
+library(sf)
 
 ## Read in the spatial data for the Greater Glasgow and Clyde Health Board
-data(GGHB.IG)
-
-## Read in the Scottish lip cancer dataframe and shapefile components
-data(lipdata)
-data(lipdbf)
-data(lipshp)
+data(GGHB.IZ)
 
 ## Read in the respiratory hospitalisation and pollution data
 data(pollutionhealthdata)

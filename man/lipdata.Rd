@@ -9,9 +9,9 @@ Lip cancer data for Scotland
 
 
 \description{
-These purely spatial data summarise overall lip cancer cases and possible covariate risk factors for the 
-period 1975 to 1986, for 56 districts in Scotland. These data  are used in a 
-worked example in the vignette accompanying the CARBayes package.
+These purely spatial data summarise overall lip cancer cases and possible covariate 
+risk factors for the period 1975 to 1986, for 56 districts in Scotland. These data  
+are used by the saeHB package.
 }
 
 \usage{data(lipdata)}
